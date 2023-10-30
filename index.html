@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<title> Form:Bootstrap</title> 
+	<meta name="viewport" content="width=initial-width,initial-scale=1.0">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	</head>
+<body>
+	<main class="container">
+		<h4 class="display-3">Registration Form</h4>
+		<form>
+			<div class="form-row">
+				<div class="col-md-6">
+					<label for='fname'>First Name</label>
+					<input type="text" class="form-control" id="fname">
+				</div>
+				<div class="=col-md-6">
+					<label for='lname'>Last Name</label>
+					<input type="text" class="form-control" id="lname">
+				</div>
+			</div>
+
+			<div>
+				<label for='username'>UserName</label>
+				<div class="input-group">
+					<div class="input-group-prepend"><span class="input-group-text">@</span></div>
+					<input type="text" class="form-control" id="username">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5">
+					<label for="country">Country</label>
+					<select class="custom-select" id="country">
+						<option value="">Choose....</option>
+						<option>Canada</option>
+						<option>U.S</option>
+						<option>France</option>
+						<option>U.K</option>
+					</select>
+				</div>
+			<button class="btn btn-success btn-lg btn-block">Submit</button>
+		</form>
+
+
+
+
+
+
+	
+</body>
+</html>
